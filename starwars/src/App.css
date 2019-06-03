@@ -6,3 +6,22 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.5% 0 0 0;
+}
+
+.characteristics {
+  margin: 2%;
+  background: rgb(68, 62, 62, 0.4);
+  border: 1px dashed black;
+}
+
+.individual {
+  font-size: 1.2rem;
+  line-height: 0.5rem;
+  color: white;
+}
